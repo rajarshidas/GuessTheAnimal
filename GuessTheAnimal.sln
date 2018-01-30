@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FD325CD6-8F1F-4C52-9C49-A31879BBE0F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8E5965D-1D6B-4B1F-8965-F70EAC78C4EC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GuessTheAnimal", "src\GuessTheAnimal\GuessTheAnimal.xproj", "{A986077F-1D27-4C93-BF1F-4530E39291C5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GuessTheAnimal.Domain", "src\GuessTheAnimal.Domain\GuessTheAnimal.Domain.xproj", "{9EAA71B0-9005-4B64-885D-0CB61B66B9E2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GuessTheAnimal.Tests", "src\GuessTheAnimal.Tests\GuessTheAnimal.Tests.xproj", "{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A986077F-1D27-4C93-BF1F-4530E39291C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A986077F-1D27-4C93-BF1F-4530E39291C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A986077F-1D27-4C93-BF1F-4530E39291C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A986077F-1D27-4C93-BF1F-4530E39291C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EAA71B0-9005-4B64-885D-0CB61B66B9E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAA71B0-9005-4B64-885D-0CB61B66B9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAA71B0-9005-4B64-885D-0CB61B66B9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAA71B0-9005-4B64-885D-0CB61B66B9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A986077F-1D27-4C93-BF1F-4530E39291C5} = {FD325CD6-8F1F-4C52-9C49-A31879BBE0F3}
+		{9EAA71B0-9005-4B64-885D-0CB61B66B9E2} = {FD325CD6-8F1F-4C52-9C49-A31879BBE0F3}
+		{6C8EFF98-460D-4DFD-AD93-E18E5AD4A47D} = {FD325CD6-8F1F-4C52-9C49-A31879BBE0F3}
+	EndGlobalSection
+EndGlobal
